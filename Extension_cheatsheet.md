@@ -15,6 +15,8 @@ Meaning: The space which the user enters the commands that the computer will pro
 
 May take time to learn initially, but once learnt it will facilitate + is more efficient + powerful when carrying out processes e.g looking for a file on the computer than using a GUI. When we learn how to do these things on CLI, a single process is only needed to be learnt as it can be applied in any environment.
 
+# Navigate The File System
+
 
 
 
@@ -29,7 +31,7 @@ By using the **“pwd”** command, you can see in which directory/ folder of
 
 **E.g.** of outcome: 
 
-# /Users/yourusername
+/Users/yourusername
 
 In this case…
 
@@ -45,7 +47,7 @@ To list all files and folders, use the command **“ls”** .
 
 **E.g.** of outcome:
 
-# a list of files and folders will appear
+a list of files and folders will appear
 
 
 	•	Con = **"ls"** command will not display everything. 
@@ -81,7 +83,7 @@ Combine the **“-a”** flag with the **“-l”** flag to the **"ls"** command
 
 **E.g. “ls -al”**
 
-# a list of files and folders including hidden files
+a list of files and folders including hidden files
 
 
 
@@ -126,7 +128,7 @@ Type **“cd ~”** or cd on its own. If we change directory accidentally we can
 
 Use the **“tab”** key to auto complete e.g. cd Doc(press tab), will display **"cd"** Document.
 
-CREATE FILES + FOLDERS
+# CREATE FILES + FOLDERS
 
 
 
@@ -180,7 +182,11 @@ touch my_file.txt
 
 
 
-OPEN FILES
+# OPEN FILES
+
+
+
+
 
 >>					**HOW DO I OPEN FILES?**
 
@@ -192,7 +198,7 @@ E.g.
 
 	•To open files using specific programs use the appropriate keyword defined within the program. E.g. To open our text file using the VSCode editor, we would type “code my_file.txt.
 
-MODIFY FILES + FOLDERS
+# MODIFY FILES + FOLDERS
 
 
 
@@ -376,6 +382,6 @@ Run the **"git revert [commit sha]"** command to create a new commit, revert cha
 Run the command **" git clone [project url or SSH]"**
 
 
->> H				**OW TO UPLOAD REPOSITORIES??????**
+>> 				**HOW TO UPLOAD REPOSITORIES??????**
 
-**"git push"**, pushes the files to remote repository.
+**"git push"** , pushes the files to remote repository.
