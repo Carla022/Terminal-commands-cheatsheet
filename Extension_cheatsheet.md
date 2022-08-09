@@ -21,7 +21,7 @@ May take time to learn initially, but once learnt it will facilitate + is more e
 
 
 
->>				**HOW TO CHECK THE DIRECTORY?** 
+>>				**🗣 HOW TO CHECK THE DIRECTORY?** 
 
 **p**rint 
 **w**orking 
@@ -41,7 +41,7 @@ In this case…
 
 
 
->>			**HOW TO FIND OUT WHAT IS IN OUR CURRENT DIRECTORY?** 
+>>				**🗣 HOW TO FIND OUT WHAT IS IN OUR CURRENT DIRECTORY?** 
 
 To list all files and folders, use the command **“ls”** .
 
@@ -59,7 +59,7 @@ E.g. **“ls -l”** yields extra info about what is in the directory incl, fiel
 
 
 
->>				**HOW TO IDENTIFY A HIDDEN FILE?** 
+>>				**🗣 HOW TO IDENTIFY A HIDDEN FILE?** 
 
 Hidden files are marked with a dot **“.”** at the beginning of the name + will not be exposed to the user unless they specifically ask to see it.
 
@@ -69,7 +69,7 @@ These hidden files are usually configuration files which affect the way the syst
 
 
 
->>				**HOW TO VIEW HIDDEN FILES?** 
+>>				**🗣 HOW TO VIEW HIDDEN FILES?** 
 
 Add the **“-a”** flag to the ls command.
 
@@ -77,7 +77,7 @@ Add the **“-a”** flag to the ls command.
 
 
 
->>		**HOW TO VIEW ALL THE DETAILS FOR ALL FILES WITHIN THE CURRENT DIRECTORY?**
+>>				**🗣 HOW TO VIEW ALL THE DETAILS FOR ALL FILES WITHIN THE CURRENT DIRECTORY?**
 
 Combine the **“-a”** flag with the **“-l”** flag to the **"ls"** command. 
 
@@ -89,7 +89,7 @@ a list of files and folders including hidden files
 
 
 
->>				**HOW TO MOVE INTO A DIFFERENT DIRECTORY?**
+>>				**🗣 HOW TO MOVE INTO A DIFFERENT DIRECTORY?**
 
 Use the **“cd”** command to Change Directory.
 
@@ -102,7 +102,7 @@ Use the **“cd”** command to Change Directory.
 
 
 	
->>				**HOW TO GET BACK TO THE HOME DIRECTORY?**
+>>				**🗣 HOW TO GET BACK TO THE HOME DIRECTORY?**
 
 Type **“cd ~”** or cd on its own. If we change directory accidentally we can go back to where we just were using **“ cd -”**
 
@@ -124,7 +124,7 @@ Type **“cd ~”** or cd on its own. If we change directory accidentally we can
 
 
 
->>				**HOW TO AUTO COMPLETE COMMANDS ON MAC?**
+>>				**🗣 HOW TO AUTO COMPLETE COMMANDS ON MAC?**
 
 Use the **“tab”** key to auto complete e.g. cd Doc(press tab), will display **"cd"** Document.
 
@@ -134,7 +134,7 @@ Use the **“tab”** key to auto complete e.g. cd Doc(press tab), will display 
 
 
 
->>				**HOW CAN I CREATE A NEW DIRECTORY (FOLDER)?**
+>>				**🗣 HOW CAN I CREATE A NEW DIRECTORY (FOLDER)?**
 
 Command of make directory **“mkdir”.**
 
@@ -160,7 +160,7 @@ mkdir my_directory(NAME)
 
 
 
->>				**WHICH COMMAND TO CREATE A NEW FILE?**
+>>				**🗣 WHICH COMMAND TO CREATE A NEW FILE?**
 
 Use the **“touch”** command for this action.
 
@@ -188,7 +188,7 @@ touch my_file.txt
 
 
 
->>					**HOW DO I OPEN FILES?**
+>>				**🗣 HOW DO I OPEN FILES?**
 
 Use the “open” command. This command will use the default program for that type of file to open it in.
 
@@ -204,7 +204,7 @@ E.g.
 
 
 
->>					**HOW TO MOVE A FILE?**
+>>				**🗣 HOW TO MOVE A FILE?**
 
 Use the **“mv”** command. This requires 2 pieces of information:
 
@@ -223,7 +223,7 @@ mv my_picture.png ..
 
 
 
->>					**HOW TO RENAME A FILE?**
+>>				**🗣 HOW TO RENAME A FILE?**
 
 Using the **“mv”** command, provide a filename (without a directory):
 
@@ -235,7 +235,7 @@ mv my_photo.png profile_picture.png
 
 
 
->>					**HOW TO COPY A FILE?** 
+>>				**🗣 HOW TO COPY A FILE?** 
 
 Similar to moving a file, but use the **“cp”** command. 
 
@@ -249,7 +249,7 @@ Similar to moving a file, but use the **“cp”** command.
 
 
 
->>			**HOW TO RENAME THE COPY OF THE FILE AS IT IS MOVED?**
+>>				**🗣 HOW TO RENAME THE COPY OF THE FILE AS IT IS MOVED?**
 
 Provide a filename in the second path.
 
@@ -259,7 +259,7 @@ To copy an entire directory add the **“-r”** (for recursive) to the **“cp�
 
 
 
->>					**HOW TO DELETE A FILE?**
+>>				**🗣 HOW TO DELETE A FILE?**
 
 Use the **“rm”** command to delete a file.
 E.g. 
@@ -272,7 +272,7 @@ rm profile_picture.png
 
 
 
->>					**HOW TO DELETE A DIRECTORY?**
+>>				**🗣 HOW TO DELETE A DIRECTORY?**
 
 Similar method, but add the **“-r”.**
 
@@ -284,7 +284,7 @@ rm -r my_directory
 
 
 
->>			**HOW CAN I BYPASS CONFIRMATION WHEN DELETING SOMETHING?**
+>>				**🗣 HOW CAN I BYPASS CONFIRMATION WHEN DELETING SOMETHING?**
 
 A confirmation will be prompted usually when something else depends on the thing the user is trying to have deleted.
 
@@ -298,7 +298,7 @@ Add the **“-f”** flag (be sure that you are certain of this action!)
 
 
 
->>			**HOW CAN I ADD MULTIPLE DIRECTORIES AT ONCE?**
+>>				**🗣 HOW CAN I ADD MULTIPLE DIRECTORIES AT ONCE?**
 
 Use quotation marks **""**, for each directory.
 
@@ -311,7 +311,7 @@ Within the parent directory the user wants to create a directory (folder) for ea
 
 GIT SESSION 
 
->>					**WHAT IS A GIT**
+>>				**🗣 WHAT IS A GIT**
 
 In Terminal you can use Git to track folders (directories) as a repository (aka Repo)
 
@@ -319,7 +319,7 @@ In Terminal you can use Git to track folders (directories) as a repository (aka 
 
 
 
->>			**HOW DO I CONVERT A LOCAL DIRECTORY INTO A REPOSITORY?**
+>>				**🗣 HOW DO I CONVERT A LOCAL DIRECTORY INTO A REPOSITORY?**
 
 Run the command **"git init"** to initiate.
 
@@ -329,7 +329,7 @@ Run the command **"git init"** to initiate.
 
 
 
->>			**HOW TO CREATE A NEW COMMIT FROM CHANGES ADDED TO STAGING AREA?**
+>>				**🗣 HOW TO CREATE A NEW COMMIT FROM CHANGES ADDED TO STAGING AREA?**
 
 Run the **"git commit"** command. Mandatory to include a **"-m"** to commit staged files.
 
@@ -340,7 +340,7 @@ Run the **"git commit"** command. Mandatory to include a **"-m"** to commit stag
 
 
 
->>					**WHAT IS COMMIT?**
+>>				**🗣 WHAT IS COMMIT?**
 
 Commit acts  as a snap shot of changes made. (AN OBJECT)
 
@@ -348,7 +348,7 @@ Commit acts  as a snap shot of changes made. (AN OBJECT)
 
 
 
->> 			**HOW TO DISPLAY THE STATUS OF YOUR WORKING DIRECTORY?**
+>> 				**🗣 HOW TO DISPLAY THE STATUS OF YOUR WORKING DIRECTORY?**
 
 Use the command **"git status"**. 
 
@@ -356,7 +356,7 @@ Use the command **"git status"**.
 
 
 
->> 				**HOW CAN I ADD A FILE TO THE STAGING AREA?**
+>> 				**🗣 HOW CAN I ADD A FILE TO THE STAGING AREA?**
 
 Run **"git add [file]"** *or* dot **"."** for the directory.
 
@@ -364,7 +364,7 @@ Run **"git add [file]"** *or* dot **"."** for the directory.
 
 
 
->> 				**HOW TO GET CHANGES FROM REMOTE?**
+>> 				**🗣 HOW TO GET CHANGES FROM REMOTE?**
 
 Type **"git pull [remote]"**. This fetches changes from the remote + merges current branch with its upstream.
 
@@ -372,16 +372,20 @@ Type **"git pull [remote]"**. This fetches changes from the remote + merges curr
 
 
 
->> 				**HOW TO REVERT CHANGES MADE TO COMMIT?**
+>> 				**🗣 HOW TO REVERT CHANGES MADE TO COMMIT?**
 
 Run the **"git revert [commit sha]"** command to create a new commit, revert changes from specified commit
 
 
->>			**HOW TO DOWNLOAD PROJECTS WITH ALL HISTORY FROM REMOTE REPOSITORY?**
+
+
+>>				**🗣 HOW TO DOWNLOAD PROJECTS WITH ALL HISTORY FROM REMOTE REPOSITORY?**
 
 Run the command **" git clone [project url or SSH]"**
 
 
->> 				**HOW TO UPLOAD REPOSITORIES??????**
+
+
+>> 				**🗣 HOW TO UPLOAD REPOSITORIES??????**
 
 **"git push"** , pushes the files to remote repository.
