@@ -15,7 +15,7 @@ Meaning: The space which the user enters the commands that the computer will pro
 
 May take time to learn initially, but once learnt it will facilitate + is more efficient + powerful when carrying out processes e.g looking for a file on the computer than using a GUI. When we learn how to do these things on CLI, a single process is only needed to be learnt as it can be applied in any environment.
 
-# Navigate The File System
+## Navigate The File System
 
 
 
@@ -128,7 +128,7 @@ Type **“cd ~”** or cd on its own. If we change directory accidentally we can
 
 Use the **“tab”** key to auto complete e.g. cd Doc(press tab), will display **"cd"** Document.
 
-# CREATE FILES + FOLDERS
+## CREATE FILES + FOLDERS
 
 
 
@@ -182,7 +182,7 @@ touch my_file.txt
 
 
 
-# OPEN FILES
+## OPEN FILES
 
 
 
@@ -198,7 +198,7 @@ E.g.
 
 	•To open files using specific programs use the appropriate keyword defined within the program. E.g. To open our text file using the VSCode editor, we would type “code my_file.txt.
 
-# MODIFY FILES + FOLDERS
+## MODIFY FILES + FOLDERS
 
 
 
@@ -309,9 +309,9 @@ Within the parent directory the user wants to create a directory (folder) for ea
 : mkdir "Monday" "Tuesday" "Wednesday" "Thur.."
 
 
-GIT SESSION 
+### GIT SESSION 
 
->>				**🗣 WHAT IS A GIT**
+>>				**🗣 WHAT IS A GIT?**
 
 In Terminal you can use Git to track folders (directories) as a repository (aka Repo)
 
